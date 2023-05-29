@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exchange_rates>
+  <rate currency="USD">
+    <buying>28.5</buying>
+  </rate>
+  <rate currency="JPY">
+    <buying>0.26</buying>
+  </rate>
+  <rate currency="EUR">
+    <buying>33.5</buying>
+  </rate>
+  <rate currency="KRW">
+    <buying>0.024</buying>
+  </rate>
+  <rate currency="AUD">
+    <buying>20.5</buying>
+  </rate>
+</exchange_rates>
+
+<!--(2) 創建一個名稱為 "rate.xml" 的檔案並以 XML 格式儲存匯率 (可參考使用如台灣銀行 https://rate.bot.com.tw/xrt 或其他銀行的現金匯率/本行賣出之牌價資訊)，轉換時須讀取該檔案取得匯率資訊後進行計算 (10%)-->

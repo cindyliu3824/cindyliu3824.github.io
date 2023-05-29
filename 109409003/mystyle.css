@@ -1,0 +1,64 @@
+code {
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+body {
+  background-color: #701e1e;
+  background-image: url("background-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: azure;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #675454;
+}
+
+th {
+  background-color: #3d3232;
+}
+
+@keyframes fireworks {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.firework {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #f00;
+  animation: fireworks 1s ease-out;
+}
+
+.firework-effect {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(circle, #f00 20%, transparent 20%);
+  background-size: 30px 30px;
+  animation: fireworks 1s ease-out;
+}
+
+/*(3) 網頁中使用了 5 種不同的 CSS 語法所設計的特效，相關語法敘述皆須置於名稱為 "mystyle.css" 的檔案中 (10%)*/
+/*(6) 頁面可讀性及美觀度 (5%)*/
